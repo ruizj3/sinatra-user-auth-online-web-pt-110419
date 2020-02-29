@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "RegistrationsController" do
   describe "sign up page: GET /registrations/signup" do
-    
+
     before(:each) do
       get '/registrations/signup'
     end
